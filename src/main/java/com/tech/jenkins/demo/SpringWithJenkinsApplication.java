@@ -10,7 +10,7 @@ public class SpringWithJenkinsApplication {
 
 	public static Logger logger = LoggerFactory.getLogger(SpringWithJenkinsApplication.class);
 	
-	public void init() {
+	public  init() {
 		logger.info("Application Started...");
 	}
 	public static void main(String[] args) {
